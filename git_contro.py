@@ -1,7 +1,9 @@
 import os
 from random import randint
 
-for i in range(1, 200):
+# command used git commit --date="x days ago" -m "message"
+
+for i in range(1, 100):
 
     for j in range(0, randint(1,10)):
         d = str(i)+' days ago '
