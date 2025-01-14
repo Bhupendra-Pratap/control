@@ -3,9 +3,9 @@ from random import randint
 
 # command used git commit --date="x days ago" -m "message"
 
-for i in range(1, 20):
+for i in range(1, 100):
 
-    for j in range(0, randint(0,1)):
+    for j in range(0, randint(0,3)):
         d = str(i)+' days ago '
         with open('test.txt','a') as file:
             file.write(d)
